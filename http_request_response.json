@@ -1,0 +1,20 @@
+[
+  {
+    "name": "response get nodes",
+    "url": "/nodes",
+    "method": "GET",
+    "data": ["localhost:1233", "localhost:2345"]
+  },
+  {
+    "name": "request set choice",
+    "url": "/set",
+    "method": "POST",
+    "data": {
+      "term": 1,
+      "choice": {
+        "127.0.0.1:42523": "#981e36",
+        "127.0.0.1:42633": "#e75d7c"
+      }
+    }
+  }
+]

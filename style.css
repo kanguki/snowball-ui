@@ -1,0 +1,21 @@
+:root {
+  --cell-side: 90px;
+}
+#container {
+	display: flex;
+}
+.row {
+	display: flex;
+	justify-content: space-around;
+}
+.cell {
+	width: var(--cell-side);
+	height: var(--cell-side);
+	border: thin solid #0000FF;
+	transition: 0.1s ease-in;
+	text-align: center;
+	justify-content: center;
+	font-weight: bold;
+	vertical-align: middle;
+	/* background-color: white; */
+}

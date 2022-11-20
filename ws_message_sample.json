@@ -1,0 +1,10 @@
+[
+  {
+    "name": "message notify change",
+    "data": {
+      "type": 4,
+      "address": "127.0.0.1:34787",
+      "data": { "term": 1, "color": "#981e36" }
+    }
+  }
+]
